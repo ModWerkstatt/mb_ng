@@ -809,7 +809,7 @@ return {
                         "vehicle/car_load/renault_4_f4_fourgonnette_6.mdl",
                     },
 					group = 15,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3, 0, 1.23, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 1.23, 1, },
 					randomId = 4,
 				},
                 {
