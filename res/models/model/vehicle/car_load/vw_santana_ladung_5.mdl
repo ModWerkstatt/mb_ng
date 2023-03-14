@@ -16,34 +16,34 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/body_lod0.msh",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/body_lod0.msh",
 						name = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/car/vw_santana/vw_santana_interior.mtl", },
-						mesh = "vehicle/car/vw_santana/int_lod0.msh",
+						materials = { "vehicle/car/vw_santana_1985_v2/vw_santana_interior.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/interior_lod0.msh",
 						name = "int",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/w1l_lod0.msh",
-						name = "w1l",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod0.msh",
+						name = "w1_lft",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235469102859, 0.67974644899368, 0.29070970416069, 1, },
 					},
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/w2_lod0.msh",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w2_lod0.msh",
 						name = "w2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1636737585068, -1.7881393432617e-06, 0.2907095849514, 1, },
 					},
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/w1r_lod0.msh",
-						name = "w1r",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235470294952, -0.67975044250488, 0.29070970416069, 1, },
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod0.msh",
+						name = "w1_lft",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.4235470294952, -0.67975044250488, 0.29070970416069, 1, },
 					},
 				},
 				name = "RootNode",
@@ -57,27 +57,27 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/body_lod1.msh",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/body_lod1.msh",
 						name = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/w1l_lod1.msh",
-						name = "w1l",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod1.msh",
+						name = "w1_lft",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235469102859, 0.67974644899368, 0.29070970416069, 1, },
 					},
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/w2_lod1.msh",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w2_lod1.msh",
 						name = "w2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1636737585068, -1.7881393432617e-06, 0.2907095849514, 1, },
 					},
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/w1r_lod1.msh",
-						name = "w1r",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod1.msh",
+						name = "w1_lft",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235470294952, -0.67975044250488, 0.29070970416069, 1, },
 					},
 				},
@@ -92,8 +92,8 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/car_load/vw_santana/vw_santana_5.mtl", },
-						mesh = "vehicle/car/vw_santana/body_lod2.msh",
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_5.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/body_lod2.msh",
 						name = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
