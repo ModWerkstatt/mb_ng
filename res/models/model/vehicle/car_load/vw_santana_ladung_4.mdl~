@@ -1,0 +1,106 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.2810583114624, 0.9125462770462, 1.4025658369064, },
+		bbMin = { -2.2712368965149, -0.9125462770462, -0.0026616454124451, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.2761476039886, 0.9125462770462, 0.70261371135712, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/vw_santana_1985_v2/vw_santana_interior.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/interior_lod0.msh",
+						name = "int",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod0.msh",
+						name = "w1_lft",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235469102859, 0.67974644899368, 0.29070970416069, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1636737585068, -1.7881393432617e-06, 0.2907095849514, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod1.msh",
+						name = "w1_lft",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235469102859, 0.67974644899368, 0.29070970416069, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1636737585068, -1.7881393432617e-06, 0.2907095849514, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/w1_lft_lod1.msh",
+						name = "w1_lft",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4235470294952, -0.67975044250488, 0.29070970416069, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/vw_santana_1985_v2/vw_santana_1985_v2_4.mtl", },
+						mesh = "vehicle/car/vw_santana_1985_v2/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
