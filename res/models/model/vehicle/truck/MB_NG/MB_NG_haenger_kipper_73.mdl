@@ -339,7 +339,7 @@ return {
 						        materials = { "vehicle/truck/MB_NG/ladung.mtl", },
 						        mesh = "vehicle/truck/MB_NG/hanger_kipper_73_lod1.msh",
 						        name = "hanger_tanker",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 0, 0, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
                             {
 						        _meshId = 22,
